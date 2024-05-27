@@ -32,6 +32,7 @@ Q.hidden=true;
 function humanChoice(){
     rockEl.onclick = function(){
         playerChoice = rock;
+        choiceEl.textContent = "You have chosen rock.";
         console.log(playerChoice)
         playImg.hidden = false;
         playImg.src="rock.jpeg"
@@ -49,6 +50,7 @@ function humanChoice(){
     }
     scissorsEl.onclick = function(){
         playerChoice = scissors;
+        choiceEl.textContent = "You have chosen scissors.";
         console.log(playerChoice)
         playImg.hidden = false;
         playImg.src="sci.jpg"
