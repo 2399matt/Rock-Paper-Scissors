@@ -1,0 +1,68 @@
+*{
+    font-family:Helvetica, Arial, sans-serif
+}
+
+.playBox{
+    display:flex;
+    flex-direction:column;
+    max-width:300px;
+    gap:50px;
+    flex:1;
+}
+body{
+    background-image:repeating-linear-gradient(lightGray,gray);
+    border:solid rgb(78,3,3) 5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:0;
+    padding:50px;
+}
+button{
+    background-color:gray;
+    color:white;
+    border-radius:3px;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    border:rgb(78,3,3) solid 3px;
+    flex:1;
+}
+.computer{
+    display:flex;
+    flex-direction:column;
+    max-width:300px;
+    gap:50px;
+    flex:1;
+}
+#compChoice,#compImg,#choice,#playerImg{
+    align-self:center;
+    font-size:18px;
+    font-weight:700;
+}
+#compImg, #playerImg{
+    border:solid rgb(78, 3, 3) 5px;
+    border-radius:10px;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    margin:0;
+    color:rgb(78, 3, 3);
+    font-size:24px;
+}
+.endBut{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+}
+#play-again,#quit{
+    background-color:rgb(61, 0, 0);
+    width:200px;
+    height:75px;
+    font-weight:bold;
+    font-size:24px;
+    border-radius:5px;
+}

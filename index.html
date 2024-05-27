@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>RPS</title>
+</head>
+    <body id="body">
+    <div id="rounds"style="align-self:center;font-size:24px;"></div>
+    <div class="header">
+    <p id="playerScore"></p>
+    <h2 id="result"></h2>
+    <p id="compScore"></p>
+    </div>
+    <div id="container"class="container">  
+        <div class="playBox">
+            <div id="playerTitle"style="font-size:24px; font-weight:bold;align-self:center;">Player:</div>
+            <button id ="rockbtn">Rock</button>
+            <button id = "paperbtn">Paper</button>
+            <button id = "scissorsbtn">Scissors</button> 
+            <p id="choice"></p>
+            <img id="playerImg" alt ="placeholder" height="150px" width="150px">
+        </div>  
+    <div class="computer">
+        <div id="compTitle"style="font-size:24px; font-weight:bold; align-self:center">Computer:</div>
+        <button id="compbtn">Rock</button>
+        <button id="compbtn2">Paper</button>
+        <button id="compbtn3">Scissors</button> 
+         <p id="compChoice"></p>
+         <img id="compImg" alt ="placeholder" height="150px" width="150px">
+        </div>   
+    </div>
+    <div class="endBut">
+        <button id="play-again" onclick="restartGame()">PLAY AGAIN</button>  
+        <button id="quit" onclick="leaveGame()">QUIT</button>
+    </div>
+    <script src="./javascript.js"></script>    
+    </body>
+</html>
